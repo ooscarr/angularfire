@@ -69,7 +69,8 @@ firebase.initializeApp({
     databaseURL: '<your-database-URL>',
     projectId: '<your-project-id>',
     storageBucket: '<your-storage-bucket>',
-    messagingSenderId: '<your-messaging-sender-id>'
+    messagingSenderId: '<your-messaging-sender-id>',
+    appId: '<your-app-id>'
 });
 
 // Retrieve an instance of Firebase Messaging so that it can handle background
